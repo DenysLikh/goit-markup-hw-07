@@ -1,0 +1,31 @@
+.section-features {
+    padding-bottom: 0;
+}
+
+.feature-icon-bgr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.list-features {
+    max-width: 270px;
+}
+
+.name-features {
+    font-size: 14px;
+    display: block;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.text-features {
+    display: block;
+    line-height: 1.71;
+    color: var(--contacts);
+}

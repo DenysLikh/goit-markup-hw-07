@@ -1,0 +1,30 @@
+.client-logo {
+    width: 170px;
+    height: 92px;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--icon);
+    border-radius: 4px;
+    transition-property: border;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+}
+
+.link-client:hover,
+.link-client:focus {
+    border: 1px solid var(--brand);
+}
+
+.client-logo:hover .icon,
+.client-logo:focus .icon {
+    fill: var(--brand);
+}
