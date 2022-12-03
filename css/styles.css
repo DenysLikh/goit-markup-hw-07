@@ -1,4 +1,4 @@
-:root {
+/* :root {
 	/* colors */
 	--brand: #2196f3;
 	--brand-accent: #188ce8;
@@ -13,20 +13,20 @@
 	/* transitions data*/
 	--transition-duration: 250ms;
 	--transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-body {
+/* body {
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
 	background-color: var(--original-white);
 	color: var(--links-plus-buttons);
 	letter-spacing: 0.03em;
-}
+} */
 
 /* Reset start --- */
 /* Reset ul.list, a.link, h, img */
 
-.list {
+/* .list {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -54,26 +54,26 @@ img {
 
 address {
 	font-style: normal;
-}
+} */
 
 /* Reset end --- */
 
 /* Components --- */
 
-.section {
+/* .section {
 	padding: 94px 0;
-}
+} */
 
-.container {
+/* .container {
 	width: 1200px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-left: auto;
 	margin-right: auto;
 	/* outline: 2px solid orange;*/
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
 	position: absolute;
 	width: 1px;
 	height: 1px;
@@ -84,7 +84,7 @@ address {
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
 	overflow: hidden;
-}
+} */
 
 /* Components end --- */
 /* ---------------*/
@@ -112,10 +112,10 @@ address {
 
 /* header flexes */
 
-.boxforflex-header {
+/* .boxforflex-header {
 	display: flex;
 	justify-content: space-between;
-}
+} */
 
 .boxforflex-nav {
 	display: flex;
@@ -222,7 +222,7 @@ address {
 	color: var(--original-white);
 }
 
-.big-btn {
+/* .big-btn {
 	min-height: 50px;
 	padding: 10px 32px;
 	font-family: inherit;
@@ -262,7 +262,7 @@ address {
 
 .pointer {
 	cursor: pointer;
-}
+} */
 
 /* HERO INDEX END --- */
 /* --------------*/
@@ -270,13 +270,13 @@ address {
 /* HERO PORTFOLIO --- */
 
 /* portfolio flexes */
-
+/* 
 .portfolio-btns {
 	display: flex;
 	justify-content: center;
 	gap: 8px;
 	margin-bottom: 50px;
-}
+} */
 
 .boxforflex-portfolio-list {
 	display: flex;
@@ -294,7 +294,7 @@ address {
 
 /* end of portfolio flexes */
 
-.btn-portfolio {
+/* .btn-portfolio {
 	min-width: 73px;
 	min-height: 38px;
 	padding: 6px 22px;
@@ -316,7 +316,7 @@ address {
 	color: var(--original-white);
 	background-color: var(--brand);
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 .portfolio-item {
 	cursor: pointer;
@@ -684,7 +684,7 @@ address {
 }
 
 
-.modal-btn,
+/* .modal-btn,
 .sign-up-btn {
 	display: flex;
 	margin: 0 auto;
@@ -697,7 +697,7 @@ address {
 	width: 200px;
 	justify-content: right;
 	padding: 10px 62px 10px 28px;
-}
+} */
 
 .footer-icon-send-email {
 	position: absolute;
@@ -745,7 +745,7 @@ address {
 	transform: translateX(-50%) translateY(-75%);
 }
 
-.modal-btn-x {
+/* .modal-btn-x {
 	position: absolute;
 	display: inline-flex;
 	align-items: center;
@@ -770,7 +770,7 @@ address {
 .modal-btn-x:hover,
 .modal-btn-x:focus {
 	fill: var(--brand);
-}
+} */
 
 .modal-title {
 	display: block;
