@@ -1,19 +1,27 @@
 // utils styles
 
-@import "./utils/module";
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./utils/mixins";
+@import "./utils/placeholders";
 
 // base styles
 
-@import "./base/module";
+@import "./base/common";
+@import "./base/reset";
 
 // components styles
 
-@import "./components/module";
-
-// layout
-
-@import "./layout/module";
-
-// pages 
-
-@import "./pages/module"; 
+@import "./components/section";
+@import "./components/container";
+@import "./components/btns";
+@import "./components/header";
+@import "./components/logo";
+@import "./components/hero";
+@import "./components/portfolio";
+@import "./components/features";
+@import "./components/what-we-do";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/footer";
+@import "./components/modal-window";

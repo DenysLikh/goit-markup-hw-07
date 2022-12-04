@@ -4,8 +4,8 @@
 }
 
 .footer {
-    background-color: var(--footer-bgd);
     padding: 60px 0;
+    background-color: var(--footer-bgd);    
 }
 
 .address-wrapper {
@@ -28,21 +28,22 @@
 
 .footer-contacts {
     display: inline-block;
+
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
-    transition-property: color;
-    transition-duration: var(--transition-duration);
-    transition-timing-function: var(--transition-timing-function);
-}
 
-.footer-contacts:hover,
-.footer-contacts:focus {
-    color: var(--brand);
+    transition-property: color;
+    @extend .btn-transitions;
+
+    &:hover,
+    &:focus {
+        color: var(--brand);
+    }
 }
 
 .footer-cta {
-    color: var(--original-white);
     margin-bottom: 20px;
+    color: var(--original-white);    
 }
 
 .footer-social-icons {
